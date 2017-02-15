@@ -4,7 +4,7 @@ import Html exposing (text)
 
 
 main =
-    text (toString darkSide)
+    darkSide |> toString |> text
 
 
 
