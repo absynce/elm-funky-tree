@@ -4,9 +4,10 @@ import Html exposing (text, div)
 
 
 main =
-    getNames people
-        |> toString
-        |> text
+    text
+        (toString
+            (getNames people)
+        )
 
 
 people =

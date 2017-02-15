@@ -7,9 +7,9 @@ import String exposing (..)
 
 main =
     div []
-        [ jared |> toString |> text
-        , jared |> capitalizeName |> toString |> text
-          -- , jared |> toString |> text -- prove not mutated
+        [ text (toString jared)
+        , text (toString (capitalizeName jared))
+          -- , text (toString jared) -- prove not mutated
         ]
 
 

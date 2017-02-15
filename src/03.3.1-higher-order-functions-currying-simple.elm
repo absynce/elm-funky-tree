@@ -4,9 +4,7 @@ import Html exposing (text, div)
 
 
 main =
-    add2 3
-        |> toString
-        |> text
+    text (toString (add2 3))
 
 
 add a b =
